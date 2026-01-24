@@ -34,9 +34,9 @@ int book_allocation(int arr[],int k, int n)
 }
 int main()
 {
-    int arr[]={12,34,67,90};
-    int k=2;
-    cout<<book_allocation(arr,k,4)<<endl;
+    int arr[]={3,2,2,4,1,4};
+    int k=3;
+    cout<<book_allocation(arr,k,6)<<endl;
 
 
 }
