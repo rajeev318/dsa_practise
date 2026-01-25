@@ -35,6 +35,6 @@ int main(){
     vector<int>nums={1,2,4,8,9};
     int k=3;
     int n=nums.size();
-    cout<<aggressive_cow(nums,k,n);
+    cout<<aggressive_cow(nums,k,n)<<endl;
 
 }
