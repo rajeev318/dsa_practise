@@ -41,6 +41,6 @@ int koko_eating(vector<int>nums,int h)// h is the given time
 int main(){
     vector<int>arr={3,6,11,7};
     int h=8;
-    cout<<koko_eating(arr,h)<<endl;
+    cout<<koko_eating(arr,h)<<end;
 
 }
