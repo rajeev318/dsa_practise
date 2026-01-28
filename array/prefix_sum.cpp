@@ -17,7 +17,7 @@ vector<int> prefix_sum(vector<int>nums){
     return prefix;
 }
 int main(){
-    vector<int>arr={6,4,5,-3,2,-8};
+    vector<int>arr={6,4,5,-3,2,8};
     vector<int>ans=prefix_sum(arr);
     for(auto c:ans){
         cout<<c<<" ";
