@@ -5,7 +5,7 @@ vector<int> diagonal_sum(vector<vector<int>>&nums){
     int n=nums.size();
     int first=0,second=0;
     for(int i=0;i<n;i++){            
-        first+=nums[i][i];   //for first diafonal 
+        first+=nums[i][i];   //for first diagonal 
     }
     // for second diagonal
     int i=0,j=n-1;
