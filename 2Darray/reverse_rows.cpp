@@ -11,7 +11,7 @@ void print(vector<vector<int>>&nums){
     }    
     cout<<endl;
 }
-void max_sum(vector<vector<int>>&arr){
+void reverse_row(vector<vector<int>>&arr){
     int row=arr.size();
     int col=arr[0].size();
     for(int i=0;i<row;i++){
