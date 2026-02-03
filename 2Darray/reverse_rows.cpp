@@ -30,6 +30,6 @@ int main(){
         {24,15,56},
         {17,58,89}
     };
-    max_sum(nums);
+    reverse_row(nums);
     print(nums);
 }
